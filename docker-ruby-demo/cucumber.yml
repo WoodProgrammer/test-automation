@@ -1,0 +1,4 @@
+#html_report: --format progress --format html --out=features_report.html
+default: --require features
+parallel: --format pretty --format html --out cucumber_output/report/report<%= ENV['TEST_ENV_NUMBER']%>.html
+html_report: --format progress --format html --out=report/features_report.html
