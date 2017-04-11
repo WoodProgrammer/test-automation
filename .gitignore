@@ -17,6 +17,7 @@
 .dat*
 .repl_history
 .idea
+.xml
 build/
 *.bridgesupport
 build-iPhoneOS/
